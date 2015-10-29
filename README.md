@@ -15,10 +15,10 @@ To build this image, just clone this repo and build using docker:
     docker build .
 
 More often though, you'll want to use the image built by this repo as a base for your 
-own image that needs pjsip. This repo is linked to the Docker hub at [chadxz/pjsip-docker][],
+own image that needs pjsip. This repo is linked to the Docker hub at [chadxz/pjsip][],
 so you can simply add this to the top of your own Dockerfile:
 
-    FROM chadxz/pjsip-docker:latest
+    FROM chadxz/pjsip:latest
 
 Other tags available besides `latest` are `2`, `2.4`, and `2.4.5`.
 
@@ -27,5 +27,5 @@ Other tags available besides `latest` are `2`, `2.4`, and `2.4.5`.
 [MIT](https://github.com/chadxz/pjsip-docker/blob/master/README.md)
 
 
-[chadxz/pjsip-docker]: https://hub.docker.com/r/chadxz/pjsip-docker/
+[chadxz/pjsip-docker]: https://hub.docker.com/r/chadxz/pjsip/
 
