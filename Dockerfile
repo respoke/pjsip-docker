@@ -23,7 +23,7 @@ COPY config_site.h /tmp/
 ENV PJSIP_VERSION=2.4.5
 RUN mkdir /usr/src/pjsip && \
     cd /usr/src/pjsip && \
-    curl -sL http://www.pjsip.org/release/${PJSIP_VERSION}/pjproject-${PJSIP_VERSION}.tar.bz2 | \
+    curl -vsL http://www.pjsip.org/release/${PJSIP_VERSION}/pjproject-${PJSIP_VERSION}.tar.bz2 | \
          tar --strip-components 1 -xj && \
     mv /tmp/config_site.h pjlib/include/pj/ && \
     CFLAGS="-O2 -DNDEBUG" \
