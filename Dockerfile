@@ -36,6 +36,7 @@ RUN mkdir /usr/src/pjsip && \
                 --with-external-pa \
                 --with-external-speex \
                 --with-external-srtp \
+                --prefix=/usr \
                 && \
     make all install && \
     /sbin/ldconfig && \
