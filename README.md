@@ -12,7 +12,7 @@ To build this image, just clone this repo and build using docker:
 
     git clone https://github.com/chadxz/pjsip-docker.git
     cd pjsip-docker
-    docker build .
+    docker build -t pjsip .
 
 More often though, you'll want to use the image built by this repo as a base for your 
 own image that needs pjsip. This repo is linked to the Docker hub at [chadxz/pjsip][],
