@@ -24,7 +24,7 @@ Other tags available besides `latest` are `2`, `2.4`, and `2.4.5`.
 
 ## license
 
-[MIT](https://github.com/chadxz/pjsip-docker/blob/master/README.md)
+[MIT](https://github.com/chadxz/pjsip-docker/blob/master/LICENSE)
 
 
 [chadxz/pjsip]: https://hub.docker.com/r/chadxz/pjsip/
