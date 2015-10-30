@@ -1,7 +1,7 @@
 # -*- Dockerfile -*-
 
 FROM debian:jessie
-MAINTAINER David M. Lee, II <dlee@respoke.io>
+MAINTAINER Respoke <info@respoke.io> 
 
 ENV DEBIAN_FRONTEND=noninteractive
 
