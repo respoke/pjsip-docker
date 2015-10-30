@@ -6,7 +6,7 @@ MAINTAINER David M. Lee, II <dlee@respoke.io>
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update -qq && \
-    apt-get install -y \
+    apt-get install -y --no-install-recommends \
             build-essential \
             curl \
             libgsm1-dev \
