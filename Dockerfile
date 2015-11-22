@@ -40,5 +40,10 @@ RUN mkdir /usr/src/pjsip && \
                 --prefix=/usr \
                 && \
     make all install && \
-    /sbin/ldconfig && \
-    rm -rf /usr/src/pjsip
+    /sbin/ldconfig 
+
+RUN echo 'deb http://http.debian.net/debian jessie-backports main contrib non-free' >> /etc/apt/sources.list &&\
+    apt-get update && apt-get install -y openjdk-8-jdk swig python-dev 
+
+RUN cd /usr/src/pjsip/pjsip-apps/src/swig; make
+
