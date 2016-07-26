@@ -20,7 +20,7 @@ so you can simply add this to the top of your own Dockerfile:
 
     FROM respoke/pjsip:latest
 
-Other tags available besides `latest` are `2`, `2.4`, and `2.4.5`.
+Other tags available besides `latest` are `2`, `2.4`, `2.4.5`, `2.5`, and `2.5.5`.
 
 ## license
 
