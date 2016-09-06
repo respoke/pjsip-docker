@@ -1,11 +1,10 @@
 # -*- Dockerfile -*-
 
 FROM debian:jessie
-MAINTAINER Respoke <info@respoke.io> 
-
-ENV DEBIAN_FRONTEND=noninteractive
+MAINTAINER Respoke <info@respoke.io>
 
 RUN apt-get update -qq && \
+    DEBIAN_FRONTEND=noninteractive \
     apt-get install -y --no-install-recommends \
             build-essential \
             ca-certificates \
