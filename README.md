@@ -1,3 +1,14 @@
+# DEPRECATED
+
+Asterisk 13.8 introduced the `--with-pjproject-bundled` flag to the `./configure`
+script, which greatly simplifies the process of installing pjsip and configuring it
+correctly. For more details, see the article "[Asterisk 13.8.0: Now With Easier 
+PJSIP Install Method!][pjsip-blog-post]".
+
+[pjsip-blog-post]: https://blogs.asterisk.org/2016/03/16/asterisk-13-8-0-now-easier-pjsip-install-method/
+
+---
+
 # pjsip-docker
 
 Dockerfile for building pjsip as a base for asterisk & chan_respoke.
